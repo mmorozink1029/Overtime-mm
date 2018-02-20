@@ -9,6 +9,7 @@ class PostsController < ApplicationController
 
   def create
     @post = Post.new(post_params)
+    @post.user_id = current_user.id # this is the new line added
 
     if @post.save
       redirect_to @post, notice: 'Your post was created successfully'
@@ -17,8 +18,7 @@ class PostsController < ApplicationController
     end
   end
 
-  def show
-    
+  def show   
   end
 
   private

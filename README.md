@@ -15,4 +15,7 @@
 - Needs to be documented if employee did not log overtime
 
 ## UI:
-Bootstrap -> formatting# Overtime-mm
+- Bootstrap -> formatting# Overtime-mm
+
+## Refactor TODOS:
+- Refactor user association intergration test in post_spec
