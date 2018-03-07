@@ -1,11 +1,5 @@
-<div class="jumbotron">
-  <h2>
-    Welcome!
-  </h2>
-  <p>
-    This is an application that i am building to help businesses help track employees time in and out. It will also help the business keep track of overtime hours.
-  </p>
-  <p>
-    <a class="btn btn-primary btn-large" href="#">Learn more</a>
-  </p>
-</div>
+<% if admin_types.include?(current_user.try(:type)) %>
+  <%= render 'admin' %>
+<% else %>
+  <%= render 'employee' %>
+<% end %>
