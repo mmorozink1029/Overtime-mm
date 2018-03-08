@@ -77,6 +77,8 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 gem 'bundler', '~> 1.16', '>= 1.16.1'
 
+gem 'rails_12factor'
+
 
 
 
