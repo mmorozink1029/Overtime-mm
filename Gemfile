@@ -75,6 +75,7 @@ gem 'dotenv-rails' , :groups => [:development, :test]
 
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
+gem 'bundler', '~> 1.16', '>= 1.16.1'
 
 
 
